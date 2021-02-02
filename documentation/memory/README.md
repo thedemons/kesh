@@ -10,7 +10,7 @@
     }
     else
     {
-        printf("Value at 0x%p: %d\n", addr, readBase);
+        printf("Value at 0x%p: %d\n", addr, readValue);
     }
 ```
 <br>
