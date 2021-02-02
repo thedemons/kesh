@@ -2,9 +2,9 @@
 ### Read a value from memory
 - The usage of ```KeReadProcessMemory``` is similar to [Win API ReadProcessMemory](https://docs.microsoft.com/en-us/windows/win32/api/memoryapi/nf-memoryapi-readprocessmemory)
 ```cpp
-    int readBase = 0;
+    int readValue = 0;
     DWORD_PTR addr = 0x384DCF50;
-    if (KeReadProcessMemory(sock, hProcess, (void*)addr, &readBase, sizeof(readBase)))
+    if (KeReadProcessMemory(sock, hProcess, (void*)addr, &readValue, sizeof(readValue)))
     {
         printf("Value at 0x%p: %d\n", addr, readBase);
     }
