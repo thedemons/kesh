@@ -1,0 +1,15 @@
+﻿  pch.cpp
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.h(5,8): warning C4081: expected 'identifier'; found '-'
+  dllmain.cpp
+  kesh.cpp
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(5,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(728,31): warning C4244: '=': conversion from 'uint64_t' to 'SIZE_T', possible loss of data
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1341,5): warning MSB8012: TargetPath(C:\Users\thedemons\source\repos\kesh\kesh\Release\keshmemory.dll) does not match the Linker's OutputFile property value (C:\Users\thedemons\source\repos\kesh\kesh\Release\kesh.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1343,5): warning MSB8012: TargetName(keshmemory) does not match the Linker's OutputFile property value (kesh). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\thedemons\source\repos\kesh\kesh\Release\keshmemory.lib and object C:\Users\thedemons\source\repos\kesh\kesh\Release\keshmemory.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 281 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  kesh.vcxproj -> C:\Users\thedemons\source\repos\kesh\kesh\Release\keshmemory.dll
