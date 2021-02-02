@@ -1,0 +1,29 @@
+﻿  pch.cpp
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.h(5,8): warning C4081: expected 'identifier'; found '-'
+  dllmain.cpp
+  kesh.cpp
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(5,1): warning C4005: 'min': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared\minwindef.h(197): message : see previous definition of 'min'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(479,23): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(495,50): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(502,38): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(502,38): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(572,38): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(572,38): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(628,38): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(654,34): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'uint32'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(654,34): warning C4302: 'type cast': truncation from 'HANDLE' to 'uint32'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(679,34): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'uint32'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(679,34): warning C4302: 'type cast': truncation from 'HANDLE' to 'uint32'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(703,36): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'uint32_t'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(703,36): warning C4302: 'type cast': truncation from 'HANDLE' to 'uint32_t'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(738,32): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+C:\Users\thedemons\source\repos\kesh\kesh\kesh.cpp(738,32): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1341,5): warning MSB8012: TargetPath(C:\Users\thedemons\source\repos\kesh\kesh\x64\Release\keshmemory.dll) does not match the Linker's OutputFile property value (C:\Users\thedemons\source\repos\kesh\kesh\x64\Release\kesh64.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1343,5): warning MSB8012: TargetName(keshmemory) does not match the Linker's OutputFile property value (kesh64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library C:\Users\thedemons\source\repos\kesh\kesh\x64\Release\keshmemory.lib and object C:\Users\thedemons\source\repos\kesh\kesh\x64\Release\keshmemory.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 281 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  kesh.vcxproj -> C:\Users\thedemons\source\repos\kesh\kesh\x64\Release\keshmemory.dll
