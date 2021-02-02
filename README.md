@@ -8,14 +8,14 @@ A simple Android memory library in C++
 
 ### Use Cheat Engine with kesh
 - **Cheat Engine** can connect with kesh to work on android devices
-- This can be done with this [tutorial]()
+- This can be done with this [tutorial](https://github.com/thedemons/kesh/tree/main/documentation#start-kesh-and-use-with-cheat-engine)
 - **Cheat Engine** can then scan and attach breakpoints directly in the android device
 
 ### Getting started
-- [Start kesh and use with Cheat Engine]()
-- [Process manipulation]()
-- [Memory manipulation]()
-- [Examples]()
+- [Start kesh and use with Cheat Engine](https://github.com/thedemons/kesh/tree/main/documentation#start-kesh-and-use-with-cheat-engine)
+- [Process manipulation](https://github.com/thedemons/kesh/tree/main/documentation/process#process-manipulation)
+- [Memory manipulation](https://github.com/thedemons/kesh/tree/main/documentation/memory#memory-manipulation)
+- [Examples](https://github.com/thedemons/kesh/tree/main/documentation/examples#examples)
 
 ### Donation
 - This project is under development, it still has a lot of features being developed, it's a very big help of your donation to keep the project running, please contact me anytime you feel like it! ♥
