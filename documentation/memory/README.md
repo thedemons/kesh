@@ -4,7 +4,11 @@
 ```cpp
     int readValue = 0;
     DWORD_PTR addr = 0x384DCF50;
-    if (KeReadProcessMemory(sock, hProcess, (void*)addr, &readValue, sizeof(readValue)))
+    if (!KeReadProcessMemory(sock, hProcess, (void*)addr, &readValue, sizeof(readValue)))
+    {
+        printf("KeReadProcessMemory failed\n");
+    }
+    else
     {
         printf("Value at 0x%p: %d\n", addr, readBase);
     }
@@ -16,8 +20,8 @@
 ```cpp
     int value = 6969;
     DWORD_PTR addr = 0x384DCF50;
-    if (!KeReadProcessMemory(sock, hProcess, (void*)addr, &value, sizeof(value)))
+    if (!KeWriteProcessMemory(sock, hProcess, (void*)addr, &value, sizeof(value)))
     {
-        printf("KeReadProcessMemory failed\n");
+        printf("KeWriteProcessMemory failed\n");
     }
 ```
