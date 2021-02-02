@@ -3,11 +3,11 @@
 - First, we have to open a snapshot handle:
 ```cpp
     HANDLE hSnapShot = KeCreateToolhelp32Snapshot(sock, TH32CS_SNAPPROCESS, 0);
-	if (hSnapShot == INVALID_HANDLE_VALUE)
-	{
+    if (hSnapShot == INVALID_HANDLE_VALUE)
+    {
         printf("KeCreateToolhelp32Snapshot failed\n");
-		return 0;
-	}
+        return 0;
+    }
 ```
 - Then loop through the list of processes using ```KeProcess32Next```:
 ```cpp
